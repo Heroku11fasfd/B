@@ -7,11 +7,11 @@ from gatet import Tele
 import os
 
 # ** महत्वपूर्ण **: यहाँ अपना असली टेलीग्राम बॉट टोकन डालें!
-token = '8028415570:AAHZfay1gTLSJLmhbvux9uepT_fNS314lYY' # bottoken
+token = '7703277028:AAG75vutgCokqH7a1Ah20sx6UxozC47lB0w' # bottoken
 
 bot = telebot.TeleBot(token, parse_mode="HTML")
-subscriber = '6710024903'
-allowed_users = ['6710024903']  # Your ID
+subscriber = '5486683891'
+allowed_users = ['5486683891']  # Your ID
 
 @bot.message_handler(commands=["start"])
 def start(message):
